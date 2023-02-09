@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,200;8..30,300;8..30,900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+:root{
+    --main-color:#1EAFED;
+    --bg-color:#ecf0f4;
+    --bg-color2:#F9F9F9;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.8rem;
+}
+
+nav{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     background-color: var(--bg-color);
+}
+
+.main_menu{
+    position: fixed;
+    top: 0px;
+    margin-top: -8px;
+}
+
+.navbar-brand{
+    padding-top: 1.5rem ;
+    padding-left: 3rem;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color:rgb(120, 115, 115);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar-brand img{
+    width: 4rem;
+}
+
+
+.navbar-brand:hover{
+    color: var(--main-color);
+}
+.nav-item{
+    padding-right: 1.8rem;
+    color: rgb(120, 115, 115);
+ 
+}
+.nav-link:hover,.nav-link:focus{
+          color: var(--main-color);
+}
+
+/* main section */
+
+.section{
+    display: flex;
+    flex-direction: row;
+    height: 69rem;
+    padding-top: 10rem;
+    font-size: 2.5rem;
+}
+.section h1{
+    font-size: 4rem;
+}
+.section h2{
+    font-size: 3rem;
+}
+.section h1 span{
+    color: var(--main-color);
+}
+.section p{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.left_div{
+      display: flex;
+      flex-direction: column; 
+      padding-left: 12rem;
+      padding-top: 8rem; 
+}
+.btnsDiv button{
+           padding:8px;
+           border-radius: 1rem;
+           margin-top: 2rem;
+           margin-right: 2rem;
+           font-size: 1.8rem;
+}
+
+#img1{
+   max-width: 90%;
+    max-height: 55rem;
+ }
+
+/* for navigation link to contact */
+.nav_link_contact{
+        color: #ffffff;
+        text-decoration: none;
+}
+.nav_link_contact:active{
+     color: #ffffff;
+}
+.nav_link_contact:visited{
+    color: #ffffff;
+}
+
+/* Get CV button link */
+.hire_me_link{
+    color: var(--main-color);
+    text-decoration: none;
+}
+.hire_me_link:hover{
+    color: #ffffff;
+}
+.hire_me_link:active{
+    color: #ffffff;
+}
+.hire_me_link:visited{
+    color: #ffffff;
+}
+
+/* About section */
+.abt_div{
+    background-color:var(--bg-color2) ;
+    padding:5.2rem 3rem;
+}
+
+.title_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom:6rem ;
+    font-size:2rem;
+}
+
+.title_div h1{
+    font-size: 3.5rem;
+}
+
+.title_div p{
+    width: 60rem;
+}
+
+.dash_div{
+    width: 10rem;
+    height: 0.3rem;
+    background-color: #1EAFED;
+    margin: 1rem;
+}
+
+.box{
+    border: 2px solid black;
+    max-width: 65rem;
+    box-shadow:1px 1px 5px 5px rgb(207, 199, 199);
+    border-radius: 1rem;
+    margin-left: 4rem;
+    padding: 2.3rem;
+    background-color: #ffffff;
+}
+
+.abt_section{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    font-size: 1.7rem;
+}
+
+.abt_sec_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title_box{
+   
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 0.4rem 3.5rem;
+    width: fit-content;
+    margin:1.6rem auto;
+    
+}
+
+.edu_div dd{
+      font-size: 1.8rem;
+}
+
+.edu_steps{
+    margin:0.5rem 2rem ;
+    font-size: 1.5rem;
+}  
+
+.more_div button{
+    font-size: 1.8rem;
+}
+
+.btn_contact{
+   display: flex;
+   justify-content: center;
+}
+
+.btn_contact button{
+
+    max-width: 25rem;
+    padding: 0.5rem 2rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.8rem;
+    border-radius: 1.2rem;
+}
+
+.skills_logo{
+    width: 7rem;
+    height: 7rem;
+    margin:0.4rem 1.5rem;
+}
+
+.logo_div{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+
+.each_logo_div{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+
+/* Projects section */
+
+.proj_div{
+    padding:5.2rem 3rem;
+}
+
+
+/* Contact Section */
+
+.contact_div{
+    background-color:var(--bg-color2) ;
+    padding:5.2rem 3rem;
+    padding-bottom: 8rem;
+}
+
+.contact_section{
+     display: grid;
+     grid-template-columns: 5fr 7fr;
+}
+
+.frm_box{
+    border: 2px solid black;
+    box-shadow:1px 1px 3px 3px rgb(207, 199, 199);
+    max-width: 50rem;
+    border-radius: 1.5rem;
+    margin-left: 4rem;
+    padding: 3.5rem ;
+    background-color: #ffffff;
+    
+}
+
+.frm_box input,.frm_box textarea{
+    
+    margin: 0.8rem 0.5rem;
+    background-color:rgb(251, 251, 251) ;
+    font-size: 1.6rem;
+}
+
+.frmButtonDiv{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.8rem;
+}
+
+.frmButtonDiv button{
+      max-width: 25rem;
+     padding: 0.5rem 2rem;
+     border-radius: 1.2rem;
+     color: #ffffff;
+     font-weight: 600;
+     font-size: 1.8rem;
+}
+
+.contact_right_div{
+     padding: 0rem 1rem 1rem 1rem;
+     
+}
+
+.contact_right_div img{
+    max-width: 100%;
+    max-height: 50rem;
+}
+
+/* Footer style */
+
+.footer_top_div{
+    background-color: #ffffff;
+    height: 2rem;
+}
+
+.footer_clr_div{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #383838;
+    color: #ffffff;
+    font-size: 1.8rem;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+.footer_clr_div h1{
+    font-size: 2.5rem;
+    margin: 2.5rem auto 2rem auto;
+}
+
+.footer_clr_div hr{
+    margin: 2.2rem auto 1rem auto;
+}
+
+.footer_clr_div p{
+    margin: 0rem auto;
+    width: 44rem;
+}
+
+.contact_logo{
+    margin: 12px auto;
+}
+
+.contact_logo img{
+            width: 4rem;
+            height: 4rem;
+            border-radius: 4px;
+}
+
+.contact_logo img:hover{
+    width: 4.2rem;
+    height: 4rem;
+    border-radius: 4px;
+}
+
+.contact_logo a{
+    margin-right: 10px;
+}
+
+/* responsive code */
+
+@media(max-width:800px){
+
+    .navbar-brand{
+        padding-top: 1.5rem ;
+        padding-left: 1.5rem;
+        font-size: 2rem;
+    }
+    .navbar-brand img{
+        width: 3.5rem;
+    }
+
+    /* .navbar-brand{
+        padding-left:5px;
+    } */
+
+    .nav-item{
+        padding-left: 20px;
+    }
+    .nav-item:first-child{
+        padding-top: 10px;
+    }
+
+   .section{
+       
+        display:grid;
+        grid-template-columns: 12fr;
+        height: auto;
+        margin-top: 20px;
+   }
+
+   .section h1{
+    font-size: 3rem;
+   }
+
+   .section h2{
+    font-size: 2.5rem;
+    }
+    .section p{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+  .left_div{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 0rem 0rem 0rem 2rem;
+     margin:0rem 0rem 4rem 0rem;
+     grid-row: 2;
+  }
+  .left_div p{
+      max-width: 40rem;
+  }
+   
+  .right_div{
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+    grid-row: 1;
+   }
+
+  #img1{
+    max-width: 35rem;
+    max-height: 35rem;
+  }
+
+  .abt_div{
+    padding:3rem 0.5rem;
+   }
+
+  .abt_section{
+        display:flex;
+        flex-direction: column;
+        height: auto;
+        font-size: 1.8rem;
+    }  
+   
+    .title_div{
+        margin-bottom:2rem ;
+    }
+    
+    .title_div h1{
+        font-size: 3.5rem;
+    }
+    
+    .title_div p{
+        width: 35rem;
+    }
+
+    .box{
+         max-width: 40rem;
+         margin:0px auto;
+         padding:15px auto;
+         margin-bottom: 50px;
+    }
+
+    .edu_div dd{
+          font-size: 1.9rem;
+    }
+    
+    .edu_steps{
+        font-size: 1.7rem;
+    } 
+
+    .logo_div{
+        display: grid;
+        grid-template-columns: 4fr 4fr 4fr ;
+    }
+
+    .proj_div{
+        padding:3rem 0.5rem;
+    }
+   
+    .contact_div{
+        padding:3rem 0.5rem;
+    }
+
+    .contact_section{
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+   
+    .frm_box{
+        max-width: 36rem;
+        margin:2rem auto 4rem auto;
+        padding: 1rem auto ;
+        grid-row: 2;
+    }
+
+    .contact_right_div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        grid-column: 1;
+     }
+   
+   .contact_right_div img{
+       max-width: 35rem;
+       max-height: 35rem;
+   }
+
+    .footer_clr_div p{
+        width: 30rem;
+    }
+
+}
+
