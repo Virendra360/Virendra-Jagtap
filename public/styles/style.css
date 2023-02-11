@@ -242,6 +242,46 @@ nav{
     padding:5.2rem 3rem;
 }
 
+.proj_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.proj_cont{
+    max-width:45rem ;
+    margin:0% 5%;
+    border: 1px solid #473C33;
+    box-shadow: 5px 5px #BDCDD6;
+    height: fit-content;
+}
+
+.proj_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.proj_cont img{
+    max-width: 100%;
+}
+
+.proj_bot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proj_bot{
+   background-color: #6096B4;
+   padding: 4% ;
+}
+
+.proj_bot button{
+        font-size: large;
+}
+
 
 /* Contact Section */
 
@@ -449,6 +489,16 @@ nav{
          padding:15px auto;
          margin-bottom: 50px;
     }
+    /* project  */
+    .proj_section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .proj_cont{
+        margin:2% 5%;
+    }
 
     .edu_div dd{
           font-size: 1.9rem;
@@ -478,7 +528,7 @@ nav{
    
     .frm_box{
         max-width: 36rem;
-        margin:2rem auto 4rem auto;
+        margin:2rem 2rem 4rem 2rem;
         padding: 1rem auto ;
         grid-row: 2;
     }
