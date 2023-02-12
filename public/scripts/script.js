@@ -33,7 +33,7 @@ function openProject(event)
 }
 
 // navigate to home from error page
-// function navToHome()
-// {
-//   location.href ="/";
-// }
+function navToHome()
+{
+  location.href ="/";
+}

@@ -392,6 +392,30 @@ nav{
     margin-right: 10px;
 }
 
+/* 404 Error Page styel */
+.err_div{
+    height:100vh ;
+    background-color: #F0EEED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.err_div h1{
+    font-size: 35px;
+}
+
+.err_div button{
+    font-size: 18px;
+}
+
+.err_div img {
+       max-width: 30%;
+}
+
+
+
 /* responsive code */
 
 @media(max-width:800px){
