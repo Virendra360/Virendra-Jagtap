@@ -6,7 +6,7 @@ var PORT= 7000;
 var app= express();
 
 // Use of static path
-var static_path= path.join(__dirname); //declaring folder in which index.html is present
+var static_path= path.join(__dirname+"/public"); //declaring folder in which index.html is present
 app.use(express.static(static_path));
 
 // use of template engine handlebars 
