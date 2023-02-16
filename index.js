@@ -1,3 +1,5 @@
+//version 1.0.0
+
 var express = require("express");
 var path= require("path");
 var hbs= require("hbs");  //view engine of handlebars
