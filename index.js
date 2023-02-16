@@ -10,11 +10,16 @@ var static_path= path.join(__dirname); //declaring folder in which index.html is
 app.use(express.static(static_path));
 
 // use of template engine handlebars 
-var template_path= path.join(__dirname);
+var template_path= path.join(__dirname+"/views");
+app.set("view engine","hbs");
+app.set("views",template_path);
 
+app.get("/",(req,res)=>{
+    res.render('index')
+})
 
-app.get('*',(req,res)=>{
-    res.send("404 Error");
+app.get("*",(req,res)=>{
+    res.render('404error')
 })
 
 app.listen(PORT,()=>{
